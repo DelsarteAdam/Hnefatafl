@@ -3,30 +3,79 @@
 .board {
   background-color: #ccc;
   border: 1px solid gray;
-  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+}
+
+.blanka {
+  background-color: white;
+
+  height: 100px;
   aspect-ratio: 1/1;
 }
 
 .player1 {
   background-color: blue;
-  width: 100px;
+  height: 100px;
   aspect-ratio: 1/1;
 }
 
 .player2 {
   background-color: red;
-  width: 100px;
+  height: 100px;
   aspect-ratio: 1/1;
 }
 
 .corner {
   background-color: antiquewhite;
   border: 1px solid green;
-  width: 100px;
+  height: 100px;
   aspect-ratio: 1/1;
 }
 
 .mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.letter {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  height: 100px;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+.numbers {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  height: 100px;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
+.letterContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.numbersContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.allBoardContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.allBoardSmallContainer {
   display: flex;
   flex-direction: row;
 }
